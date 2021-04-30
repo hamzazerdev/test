@@ -1,0 +1,440 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F7FBFF;
+
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 6vh;
+        flex-direction: row;
+        background-color:#08519C ;
+        position: fixed;
+        top: 0px;
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content:flex-start;
+            flex-direction: row;
+            width:80% ;
+            h4{
+                font-family: 'Lato', sans-serif;  
+                font-size: 2.7vh;
+                color: white;
+                font-weight: 700;
+                letter-spacing: -0.5px;
+                margin-left: 10px;
+
+            }
+        }
+        .burger{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20%;
+            height: 100%;
+            img{
+                width: 35%;
+                cursor: pointer;
+                outline: none;
+
+            }
+        }
+
+
+    }
+
+    .banner{
+        margin-top: 6vh;
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        background-color: #F7FBFF;
+        .avatar{
+            display: flex;
+            align-items: center;
+            justify-content: center ;
+            width: 45%;
+            height: auto;
+            margin-top: 70px;
+            border-radius: 50% 50%;
+            img{
+                width: 100%;
+                border-radius: 50% 50%;
+            }
+        }
+        .name-grade-univ{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            .name{
+               margin-bottom: 5px;
+               
+                font-family: 'Lato', sans-serif;  
+                font-size: 3.1vh;
+                color:black ;
+                font-weight: 400;
+
+            }
+            .grade{
+                font-family: 'Lato', sans-serif;  
+                font-size: 1.6vh;
+                color:#adb1b4 ;
+                font-weight: 400;
+                margin: 5px;
+            }
+            .univ{
+                font-family: 'Lato', sans-serif;  
+                font-size: 1.6vh;
+                font-weight: 400;
+                margin: 5px;
+                color: #08519C;
+                text-decoration: none;
+                text-align: center;
+                margin-left: 10px;
+                margin-right: 10px;
+                &:hover{
+                    text-decoration: underline;
+                }
+
+            }
+        }
+
+        .reseaux{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            width: 70%;
+            height: auto;
+            margin-top: 10px;
+
+            .reseau{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 10%;
+                margin: 10px;
+                transition: all 0.15s ease-in-out;
+                a{
+                    img{
+                        width: 100%;
+                        transition: all 0.15s ease-in-out;
+                    }
+                }
+                &:hover{
+                   
+                    a{
+                        img{
+                            transform: scale(1.2);
+                        }
+                    }
+                }
+            }
+        }
+
+        .about-me{
+            display: flex; 
+            flex-direction: column;
+            width: 95%;
+            height: auto;
+            margin-top: 30px;
+            h5{
+                 
+                font-family: 'Lato', sans-serif;  
+                font-size: 2.5vh;
+                color:rgba($color: #000000, $alpha: 0.7) ;
+                font-weight: 800;
+                margin: 10px;
+                margin-bottom: 0px;
+            }
+            p{
+                font-family: 'Lato', sans-serif;  
+                font-size: 1.8vh;
+                color:rgba($color: #000000, $alpha: 0.7) ;
+                font-weight: 400;
+                margin: 10px; 
+                line-height: 27px;
+            }
+
+        }
+        .educations{
+            display: flex;
+            //align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 95%;
+            margin-bottom: 30px;
+            h5{
+                 
+                font-family: 'Lato', sans-serif;  
+                font-size: 2.5vh;
+                color:rgba($color: #000000, $alpha: 0.7) ;
+                font-weight: 800;
+                margin: 10px;
+                margin-bottom: 0px;
+            }
+
+            .education{
+                margin-top: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                width: 100%;
+
+                img{
+                    width: 11%;
+                    margin-left: 10px;
+            
+                }
+
+                h5{
+                    font-family: 'Lato', sans-serif;  
+                    font-size: 1.8vh;
+                    color:rgba($color: #000000, $alpha: 0.6) ;
+                    font-weight: 400;
+                    margin: 10px;
+                    margin-bottom: 0px;
+                }
+            }
+
+
+           
+        }
+    }
+
+    .publications{
+        background-color: #DEEBF7;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .title-pub{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: row;
+            width:100%;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            h2{
+                font-family: 'Lato', sans-serif;  
+                    font-size: 4vh;
+                    color:#313131 ;
+                    font-weight: 400;
+                    margin: 10px;
+                   
+            }
+
+        }
+
+        .publication{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width:92% ;
+            height: 60vh;
+            background-color: white;
+            margin-bottom: 30px;
+            .pub-header{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                height: 15%;
+
+                .authors{
+                   display: flex;
+                   align-items: center;
+                   justify-content: flex-start;
+                   flex-direction: row;
+                   width: 90%;
+                   margin-top: 20px;
+                   p{
+                       margin: 0px;
+                       font-family: 'Lato', sans-serif;  
+                       font-size: 1.6vh;
+                       color:rgba(0,0,0,.54) ;
+                       font-weight: 400;
+                       text-decoration: none;
+                    a{
+                        font-family: 'Lato', sans-serif;  
+                        font-size: 1.6vh;
+                        color:rgba(0, 0, 0, 0.363) ;
+                        font-weight: 400;
+                        text-decoration: none;
+                       &:hover{
+                           color: #08519c;
+                       }
+                       }
+                   }
+                  
+                }
+
+                .date-theme-time{
+                     display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    flex-direction: row;
+                    width: 90%;
+                    margin-top: 10px;
+                    .date{
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        flex-direction: row;
+                        margin-right: 20px;
+                        h5{
+                            font-family: 'Lato', sans-serif;  
+                        font-size: 1.6vh;
+                        color:rgba(0, 0, 0, 0.363) ;
+                        font-weight: 400;
+                        text-decoration: none;
+                        margin: 0px;
+                        }
+
+                    }
+                    .theme{
+                        display: flex;
+                   align-items: center;
+                   justify-content: flex-start;
+                   flex-direction: row;
+                   margin-right: 5px;
+                        h5{
+                            font-family: 'Lato', sans-serif;  
+                        font-size: 1.6vh;
+                        color:rgba(0, 0, 0, 0.363) ;
+                        font-weight: 400;
+                        text-decoration: none;
+                        margin: 0px;
+                        }
+                    }
+                    .time{
+                        display: flex;
+                   align-items: center;
+                   justify-content: flex-start;
+                   flex-direction: row;
+                        h5{
+                            font-family: 'Lato', sans-serif;  
+                        font-size: 1.6vh;
+                        color:rgba(0, 0, 0, 0.363) ;
+                        font-weight: 400;
+                        text-decoration: none;
+                        margin: 0px;
+                        }
+                    }
+                }
+            }
+            .pub-mid{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 90%;
+                height: 70%;
+                margin-top: 5%;
+                .thumbnail{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .title-pub{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    margin: 0px;
+                    margin-top: 20px;
+                    h5{
+                        font-family: 'Lato', sans-serif;  
+                        font-size: 2vh;
+                        color:#313131 ;
+                        font-weight: 800;
+                        text-decoration: none;
+                        margin: 0px;
+                    }
+                }
+                .title-desc{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    margin: 0px;
+                   margin-top: 10px;
+                    p{
+                        font-family: 'Lato', sans-serif;  
+                        font-size: 1.7vh;
+                        color:#313131b9 ;
+                        font-weight: 400;
+                        text-decoration: none;
+                        margin: 0px;
+                    }
+                }
+            }
+            .pub-bot{
+                display: flex;
+                align-items: center;
+                justify-content:flex-start;
+                flex-direction: row;
+                height: 10%;
+                width: 90%;
+                .links{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    flex-direction: row;
+                    .link{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: row;
+                        margin-right: 10px;
+                        cursor: pointer;
+                        border: 1px solid #09529C;
+                        border-radius: 3px;
+                        width: 12%;
+                        transition: all 0.15s ease-in-out;
+                        img{
+                            width: 30%;
+                            margin-left: 2px;
+                        }
+                        h5{
+                            font-family: 'Lato', sans-serif;  
+                            font-size: 1.2vh;
+                            color:#09529C ;
+                            font-weight: 400;
+                            text-decoration: none;
+                            margin: 2px;
+                            margin-right: 5px;
+                            margin-left: 2px;
+                        }
+                        &:hover{
+                            background-color: #09529C;
+                            h5{
+                                color: white;
+                            }
+                            
+                        }
+                    }
+
+                }
+            }
+
+        }
+    }
+}

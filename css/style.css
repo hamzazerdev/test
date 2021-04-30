@@ -1,0 +1,677 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #F7FBFF;
+}
+
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 6vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #08519C;
+  position: fixed;
+  top: 0px;
+}
+
+body .header .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80%;
+}
+
+body .header .title h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.7vh;
+  color: white;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-left: 10px;
+}
+
+body .header .burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20%;
+  height: 100%;
+}
+
+body .header .burger img {
+  width: 35%;
+  cursor: pointer;
+  outline: none;
+}
+
+body .banner {
+  margin-top: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: #F7FBFF;
+}
+
+body .banner .avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 45%;
+  height: auto;
+  margin-top: 70px;
+  border-radius: 50% 50%;
+}
+
+body .banner .avatar img {
+  width: 100%;
+  border-radius: 50% 50%;
+}
+
+body .banner .name-grade-univ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+body .banner .name-grade-univ .name {
+  margin-bottom: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 3.1vh;
+  color: black;
+  font-weight: 400;
+}
+
+body .banner .name-grade-univ .grade {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6vh;
+  color: #adb1b4;
+  font-weight: 400;
+  margin: 5px;
+}
+
+body .banner .name-grade-univ .univ {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6vh;
+  font-weight: 400;
+  margin: 5px;
+  color: #08519C;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+body .banner .name-grade-univ .univ:hover {
+  text-decoration: underline;
+}
+
+body .banner .reseaux {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 70%;
+  height: auto;
+  margin-top: 10px;
+}
+
+body .banner .reseaux .reseau {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 10%;
+  margin: 10px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+body .banner .reseaux .reseau a img {
+  width: 100%;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+body .banner .reseaux .reseau:hover a img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+body .banner .about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 95%;
+  height: auto;
+  margin-top: 30px;
+}
+
+body .banner .about-me h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5vh;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 800;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+body .banner .about-me p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8vh;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+  margin: 10px;
+  line-height: 27px;
+}
+
+body .banner .educations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 95%;
+  margin-bottom: 30px;
+}
+
+body .banner .educations h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5vh;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 800;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+body .banner .educations .education {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+body .banner .educations .education img {
+  width: 11%;
+  margin-left: 10px;
+}
+
+body .banner .educations .education h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8vh;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+body .publications {
+  background-color: #DEEBF7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .publications .title-pub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+body .publications .title-pub h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 4vh;
+  color: #313131;
+  font-weight: 400;
+  margin: 10px;
+}
+
+body .publications .publication {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 92%;
+  height: 60vh;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+body .publications .publication .pub-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 15%;
+}
+
+body .publications .publication .pub-header .authors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  margin-top: 20px;
+}
+
+body .publications .publication .pub-header .authors p {
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6vh;
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+body .publications .publication .pub-header .authors p a {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6vh;
+  color: rgba(0, 0, 0, 0.363);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+body .publications .publication .pub-header .authors p a:hover {
+  color: #08519c;
+}
+
+body .publications .publication .pub-header .date-theme-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  margin-top: 10px;
+}
+
+body .publications .publication .pub-header .date-theme-time .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 20px;
+}
+
+body .publications .publication .pub-header .date-theme-time .date h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6vh;
+  color: rgba(0, 0, 0, 0.363);
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0px;
+}
+
+body .publications .publication .pub-header .date-theme-time .theme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 5px;
+}
+
+body .publications .publication .pub-header .date-theme-time .theme h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6vh;
+  color: rgba(0, 0, 0, 0.363);
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0px;
+}
+
+body .publications .publication .pub-header .date-theme-time .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .publications .publication .pub-header .date-theme-time .time h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6vh;
+  color: rgba(0, 0, 0, 0.363);
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0px;
+}
+
+body .publications .publication .pub-mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: 70%;
+  margin-top: 5%;
+}
+
+body .publications .publication .pub-mid .thumbnail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+body .publications .publication .pub-mid .thumbnail img {
+  width: 100%;
+}
+
+body .publications .publication .pub-mid .title-pub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+body .publications .publication .pub-mid .title-pub h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2vh;
+  color: #313131;
+  font-weight: 800;
+  text-decoration: none;
+  margin: 0px;
+}
+
+body .publications .publication .pub-mid .title-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+body .publications .publication .pub-mid .title-desc p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.7vh;
+  color: #313131b9;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0px;
+}
+
+body .publications .publication .pub-bot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 10%;
+  width: 90%;
+}
+
+body .publications .publication .pub-bot .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .publications .publication .pub-bot .links .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 1px solid #09529C;
+  border-radius: 3px;
+  width: 12%;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+body .publications .publication .pub-bot .links .link img {
+  width: 30%;
+  margin-left: 2px;
+}
+
+body .publications .publication .pub-bot .links .link h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2vh;
+  color: #09529C;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 2px;
+  margin-right: 5px;
+  margin-left: 2px;
+}
+
+body .publications .publication .pub-bot .links .link:hover {
+  background-color: #09529C;
+}
+
+body .publications .publication .pub-bot .links .link:hover h5 {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
